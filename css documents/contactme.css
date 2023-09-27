@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.wallpapersafari.com/2/20/ynIhfu.jpg);
+    color: rgb(2, 176, 176);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a{
+    color: rgb(129, 124, 60);
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+}

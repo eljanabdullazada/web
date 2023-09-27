@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css documents/questionnaire.css">
     <title>Questionaire</title>
 </head>
+
 <body>
-                <button> <a style="text-decoration: none;" href="index.html">Home</a> </button>
-                <button> <a style="text-decoration: none;" href="education.html">Education</a> </button>
-                <button> <a style="text-decoration: none;" href="contactme.html">Contact Me</a> </button>
-                <button> <a style="text-decoration: none;" href="questionnaire.html">Questionnaire</a> </button>
+    <div id="navbar-right">
+        <table>
+            <tr>
+                <td>
+                    <button> <a style="text-decoration: none;" href="index.html">Home</a> </button>
+                    <button> <a style="text-decoration: none;" href="education.html">Education</a> </button>
+                    <button> <a style="text-decoration: none;" href="questionnaire.html">Questionnaire</a> </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <form action="mailto:a3371977@gmail.com" method="POST" enctype="text/plain">
+
+        <p>Please enter your name and e-mail address</p>
+        <hr>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <hr>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <hr>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <hr>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <hr>
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
+
 </html>

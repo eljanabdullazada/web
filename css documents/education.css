@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.wallpapersafari.com/2/20/ynIhfu.jpg);
+    color: rgb(2, 176, 176);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: space-around;
+    height: 100px;
+    margin-right: 10px;
+}
+
+button{
+    border-radius: 50px;
+    background-color: aquamarine;
+}
+
+button:hover{
+    background-color:rgb(0, 103, 103);
+}
+
+a{
+    color: rgb(59, 98, 0);
+}
+a:hover{
+    color: greenyellow;
+}
+
+
+table{
+    display: flex;
+    justify-content: center;
+}
