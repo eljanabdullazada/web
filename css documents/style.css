@@ -70,3 +70,7 @@ hr{
     margin: 20px auto;
     border-top: 3px dashed rgb(14, 203, 203);
 }
+
+.random_cat{
+    border-radius: 50%;
+}
