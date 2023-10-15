@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg1.jpg);
+}
+.section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  height: 750px;
+gap: 30px;
+
+}
+.main_part{
+    background-color: white;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}

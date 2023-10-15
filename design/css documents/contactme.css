@@ -7,6 +7,15 @@ body{
     margin-left: 20px;
 }
 
+#navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: space-around;
+    height: 100px;
+    margin-right: 10px;
+}
+
 a{
     color: rgb(129, 124, 60);
 }
