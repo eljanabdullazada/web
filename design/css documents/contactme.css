@@ -23,6 +23,7 @@ a{
 button{
     border-radius: 50px;
     background-color: aquamarine;
+    font-size: larger;
 }
 
 button:hover{

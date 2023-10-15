@@ -7,15 +7,6 @@ body{
     margin-left: 20px;
 }
 
-#navbar-left{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    align-content: space-around;
-    height: 170px;
-    margin-left: 10px;
-}
-
 #navbar-right{
     display: flex;
     justify-content: flex-end;
@@ -25,9 +16,15 @@ body{
     margin-right: 10px;
 }
 
+#navbar-left{
+    display: flex;
+    justify-content: center;
+}
+
 button{
     border-radius: 50px;
     background-color: aquamarine;
+    font-size: larger;
 }
 
 button:hover{
@@ -48,20 +45,6 @@ table{
 table td{
     padding: 10px;
 }
-iframe{
-    border-radius: 10px;
-    border-color: rgb(14, 203, 203);
-    overflow-y: scroll;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-#footer_hobbies{
-    margin-right: 100px;
-}
 
 hr{
     height: 3px;
@@ -71,6 +54,7 @@ hr{
     border-top: 3px dashed rgb(14, 203, 203);
 }
 
-.random_cat{
-    border-radius: 50%;
+h2{
+    display: flex;
+    justify-content: center;
 }
